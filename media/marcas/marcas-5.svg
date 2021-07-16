@@ -1,0 +1,54 @@
+<svg id="Grupo_254" data-name="Grupo 254" xmlns="http://www.w3.org/2000/svg" width="312.57" height="138.922" viewBox="0 0 312.57 138.922">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #c3c18d;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 7px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-4 {
+        font-size: 6px;
+      }
+
+      .cls-5 {
+        font-size: 5px;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_251" data-name="Grupo 251" transform="translate(0)">
+    <rect id="Rectángulo_141" data-name="Rectángulo 141" class="cls-1" width="312.57" height="138.922" rx="10"/>
+  </g>
+  <g id="Grupo_253" data-name="Grupo 253" transform="translate(42.98 47.06)">
+    <g id="Grupo_252" data-name="Grupo 252">
+      <path id="Trazado_180" data-name="Trazado 180" class="cls-2" d="M616.041,2803.672l.007-14.2-25.775,6.655v14.194Zm14.518,19.985v-12.622l-13.08-5.558h-1.043l-3.205.827v17.353Zm-19.174-5.771-19.153-6.16,19.153-4.946Zm21.021-2.237,4.553-1.894-4.553-1.934Zm6.74-.85-6.74,2.744v7.96H611.385v-5.681l-21.753-7a2.075,2.075,0,0,1-1.205-2.023v-16.1l22.958-5.926V2780.7h21.021v13.034l7.371,3.134v16.1C639.776,2813.036,639.82,2814.525,639.146,2814.8Zm-15.961-8.881.009-14.114-5.3-2.251-.009,14.155.011-.037Zm1.855-13.329-.011,14.113,12.9,5.483v-14.118Zm-8.99-5.021a2.971,2.971,0,0,1,1.846,0l12.663,5.383v-10.4H613.231v5.75Z" transform="translate(-588.427 -2780.702)"/>
+      <text id="c" class="cls-3" transform="translate(64.603 40.807)"><tspan x="0" y="0">c</tspan></text>
+      <text id="o" class="cls-4" transform="translate(74.057 39.807)"><tspan x="0" y="0">o</tspan></text>
+      <text id="n" class="cls-4" transform="translate(83.708 39.807)"><tspan x="0" y="0">n</tspan></text>
+      <text id="s" class="cls-5" transform="translate(92.628 38.807)"><tspan x="0" y="0">s</tspan></text>
+      <text id="t" class="cls-5" transform="translate(100.941 38.807)"><tspan x="0" y="0">t</tspan></text>
+      <text id="r" class="cls-5" transform="translate(109.388 38.807)"><tspan x="0" y="0">r</tspan></text>
+      <text id="u" class="cls-5" transform="translate(117.293 38.807)"><tspan x="0" y="0">u</tspan></text>
+      <text id="c-2" data-name="c" class="cls-3" transform="translate(125.717 40.807)"><tspan x="0" y="0">c</tspan></text>
+      <text id="t-2" data-name="t" class="cls-5" transform="translate(135.173 38.807)"><tspan x="0" y="0">t</tspan></text>
+      <text id="o-2" data-name="o" class="cls-4" transform="translate(143.62 39.807)"><tspan x="0" y="0">o</tspan></text>
+      <text id="r-2" data-name="r" class="cls-5" transform="translate(153.27 38.807)"><tspan x="0" y="0">r</tspan></text>
+      <text id="a" class="cls-5" transform="translate(161.666 38.807)"><tspan x="0" y="0">a</tspan></text>
+      <path id="Trazado_181" data-name="Trazado 181" class="cls-6" d="M780.22,2785.63v21.355h14.536V2803.7H783.778v-18.07Zm-12.939,4.2,3.98,10.277h-7.974Zm-1.769-4.173-8.481,21.325h3.539l1.439-3.65h10.531l1.455,3.65h3.517l-8.461-21.325Zm-23.713-.03v3.316h7.46v18.039h3.548v-18.039h7.458v-3.316Zm-6.229.03V2800.7L722.4,2785.66h-1.886v21.325h3.55v-15.043l13.182,15.043h1.88V2785.66Zm-32.24,0v21.325h14.536V2803.7H706.886v-6.753h8.285v-3.286h-8.285v-4.715h10.977v-3.286Zm-5.771,0-9.206,11.113-9.219-11.113h-1.885v21.325H680.8v-14.941l7.555,9.2,7.544-9.181v14.925h3.55V2785.66Zm-37.467,0v21.325h14.536V2803.7H663.649v-6.753h8.285v-3.286h-8.285v-4.715h10.977v-3.286Zm-17.1-.03v21.355H657.53V2803.7H646.553v-18.07Zm-17.212.03v.01H624.04l-.07,3.724a1.794,1.794,0,0,1,1.793,1.7l.02.014v1.691H624.04l-.07,3.726a1.8,1.8,0,0,1,1.793,1.7l.02.013v8.755h14.536V2803.7H629.341v-6.753h8.285v-3.286h-8.285v-4.715h10.977v-3.286Z" transform="translate(-560.509 -2776.832)"/>
+    </g>
+  </g>
+</svg>

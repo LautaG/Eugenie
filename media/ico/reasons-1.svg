@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="109.362" height="110.178" viewBox="0 0 109.362 110.178">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 4px;
+      }
+
+      .cls-1 {
+        stroke: #032854;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke: #eeedaa;
+        stroke-dasharray: 7;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_206" data-name="Grupo 206" transform="translate(2 2)">
+    <rect id="Rectángulo_121" data-name="Rectángulo 121" class="cls-1" width="88.653" height="88.653" transform="translate(0 17.525)"/>
+    <path id="Trazado_615" data-name="Trazado 615" class="cls-2" d="M0,0H88.653V88.653H0Z" transform="translate(16.708 0)"/>
+  </g>
+</svg>
