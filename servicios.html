@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+
+    <link rel="stylesheet" href="css/glide.core.min.css">
+    <link rel="stylesheet" href="css/glide.theme.min.css">
+    <link rel="stylesheet" href="css/helpers.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="header" class="header">
+
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img loading="lazy" src="media/isologo.png" class="isologo">
+                    <p>eugénie</p>
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+
+                    <img aria-hidden="true" src="media/ico/burguer.png" alt="" srcset="" class="burguer-ico">
+                </a>
+            </div>
+
+            <div id="navbar" class="navbar-menu is-justify-content-flex-end">
+
+                <a href="index.html" class="navbar-item">
+                    Inicio
+                </a>
+
+                <a href="quienes-somos.html" class="navbar-item">
+                    Quiénes somos
+                </a>
+
+                <a href="servicios.html" class="navbar-item">
+                    Servicios
+                </a>
+
+                <a href="creditos.html" class="navbar-item">
+                    Créditos
+                </a>
+
+
+                <div class="center">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a href="contacto.html" class="button is-primary has-text-weight-medium">
+                                Contacto
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <section id="heros" class="heros">
+        <article class="cont">
+            <h1 class="is-size-5-mobile has-text-weight-medium has-text-primary">Todos los servicios que necesitás. <br>
+                PARA MUJERES.</h1>
+            <h2 class="has-text-weight-medium has-text-primary">
+                Nuestro equipo está listo para ayudarte con tu emprendimiento.
+            </h2>
+            <div class="botones">
+                <a href=""><img src="media/ico/hero-flecha.svg" alt="" class="flecha"></a>
+            </div>
+        </article>
+    </section>
+
+    <section id="infocards" class="infocards">
+        <article class="inforcards-item">
+            <img src="" alt="">
+            <h3>créditos</h3>
+            <p>Otorgamos los recursos económicos necesarios para que desarrolles tu emprendimiento.</p>
+            <a href="">simular crédito</a>
+        </article>
+        <article class="inforcards-item">
+            <img src="" alt="">
+            <h3>conexiones</h3>
+            <p>Generamos una red de emprendedoras y lazos de negocios para que puedas crecer y expandirte.</p>
+            <a href="">quiero ser parte</a>
+        </article>
+        <article class="inforcards-item">
+            <img src="" alt="">
+            <h3>consultoría</h3>
+            <p>Ofrecemos un acompañamiento personalizado, asesoramiento de gestión, estudios de mercado, etc.</p>
+            <a href="">conversemos</a>
+        </article>
+    </section>
+
+    <section id="volver" class="volver">
+        <a href=""><img src="" alt=""> volver al inicio</a> 
+        </section>
+        <section id="redes" class="redes">
+        <p>Seguinos en nuestras</p>
+        <div class="redes">
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+        </div>
+        </section>
+  
+    <footer id="footer" class="footer has-text-primary py-5">
+        <article class="cont">
+            <div class="menu">
+                <div class="navbar-item is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-center">
+                    <a href="index.html" class="navbar-item">
+                        Inicio
+                    </a>
+    
+                    <a href="quienes-somos.html" class="navbar-item">
+                        Quiénes somos
+                    </a>
+    
+                    <a href="servicios.html" class="navbar-item">
+                        Servicios
+                    </a>
+    
+                    <a href="creditos.html" class="navbar-item">
+                        Créditos
+                    </a>
+                    <a href="contacto.html" class="navbar-item">
+                        Contacto
+                    </a>
+
+                </div>
+            </div>
+            <div class="copy is-flex is-flex-wrap-wrap">
+                <p>Eugénie es una empresa perteneciente a Grupo Delsud</p>
+                <p>Copyright © 2021 Grupo Delsud </p>
+            </div>
+        </article>
+    </footer>
+
+</body>
+
+<script src="js/burguermenu.js"></script>
+<script src="js/glide.min.js"></script>
+<script>
+    const config = {
+        type: "slider",
+        animationDuration: 600,
+        gap: 20,
+        autoplay: 3000,
+    };
+    new Glide(".glide-gallery", config).mount();
+    const config_client = {
+        type: "carousel",
+        animationDuration: 600,
+        gap: 18,
+        hoverpause: true,
+        autoplay: 1,
+        animationDuration: 6000,
+        animationTimingFunc: 'linear',
+
+
+    };
+    new Glide(".glide-clientes", config_client).mount();
+    const config_bases = {
+        type: "slider",
+        animationDuration: 600,
+        gap: 26,
+        breakpoints: {
+            1925: {
+                perView: 3,
+                dragThreshold: false,
+            },
+            800: {
+                perView: 1
+            }
+        }
+    };
+    new Glide(".glide-bases", config_bases).mount();
+</script>
+
+</html>
