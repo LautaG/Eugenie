@@ -7909,6 +7909,7 @@ body {
   .hero .cont h1 {
     font-size: 43px;
     margin-bottom: 21px;
+    font-weight: 600 !important;
   }
   .hero .cont h2 {
     font-size: 28px;

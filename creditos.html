@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Créditos</title>
 
     <link rel="stylesheet" href="css/glide.core.min.css">
     <link rel="stylesheet" href="css/glide.theme.min.css">
     <link rel="stylesheet" href="css/helpers.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bulma.min.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/creditos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
@@ -70,57 +70,82 @@
 
     <section id="heroc" class="heroc">
         <article class="cont">
-            <h1 class="is-size-5-mobile has-text-weight-medium has-text-primary">Conocé los beneficios disponibles.</h1>
-            <h2 class="has-text-weight-medium has-text-primary">
-                Simulá tu crédito.
-            </h2>
-            <div class="botones">
+            <h1 class="is-size-5-mobile has-text-primary is-uppercase">Conocé los <br> beneficios
+                disponibles.</h1>
+            <div class="info">
+                <h2 class="has-text-weight-medium has-text-primary">
+                    Simulá tu crédito.
+                </h2>
                 <a href=""><img src="media/ico/hero-flecha.svg" alt="" class="flecha"></a>
             </div>
         </article>
+        </article>
+        <article class="heroc-img">
+            <img src="media/b-hero-creditos-m.jpg" alt="">
+        </article>
     </section>
 
-    <nav class="tabs is-boxed is-fullwidth is-large">
-        <div class="container">
-          <ul>
-            <li class="tab is-active" onclick="openTab(event,'WebDev')"><a >Web Development</a></li>
-            <li class="tab" onclick="openTab(event,'WebAud')"><a >Website Audit</a></li>
-            <li class="tab" onclick="openTab(event,'Support')"><a >Support</a></li>
-          </ul>
+    <section id="infoc" class="infoc">
+        <div class="margindesktop">
+            <article class="infoc-cont">
+
+                <nav class="tabs">
+                    <ul>
+                        <li class="tab is-active" onclick="openTab(event,'WebDev')"><a>Características</a></li>
+                        <li class="tab" onclick="openTab(event,'WebAud')"><a>¿Por qué te conviene?</a></li>
+                        <li class="tab" onclick="openTab(event,'Support')"><a>Requisitos</a></li>
+                    </ul>
+                </nav>
+
+                <div id="WebDev" class="content-tab">
+                    <ul>
+                        <li class="block">Monto máximo de $1.000.000 (pesos argentinos)</li>
+                        <li class="block">Plazo mínimo 12 meses - máximo 60 meses.</li>
+                        <li class="block">Tasa fija en pesos. </li>
+                        <li class="block">Préstamos a sola firma.</li>
+                        <li class="block">Condiciones adaptadas a los ciclos productivos
+                            de su negocio</li>
+                    </ul>
+                </div>
+                <div id="WebAud" class="content-tab" style="display:none">
+                    <ul>
+                        <li class="block">Sin demostración de ingresos. </li>
+                        <li class="block">Resolución en 72hs.</li>
+                        <li class="block">No es necesario concretar una cita en nuestras oficinas,
+                            un miembro de nuestro equipo visitará tu emprendimiento.</li>
+                        <li class="block">Atención personalizada.</li>
+                        <li class="block">Consultoría gratuita durante todo el proceso.</li>
+
+                    </ul>
+                </div>
+                <div id="Support" class="content-tab" style="display:none">
+                    <ul>
+                        <li class="block">Monto máximo de $1.000.000 (pesos argentinos)</li>
+                        <li class="block">Plazo mínimo 12 meses - máximo 60 meses.</li>
+                        <li class="block">Tasa fija en pesos. </li>
+                        <li class="block">Préstamos a sola firma.</li>
+                        <li class="block">Condiciones adaptadas a los ciclos productivos
+                            de su negocio</li>
+                    </ul>
+                </div>
+
+            </article>
         </div>
-      </nav>
-    </div>
     </section>
-    
-    <div class="container section">
-    <div id="WebDev" class="content-tab" >
-      <p>
-        test1<br>
-      Overview Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </div>
-    <div id="WebAud" class="content-tab" style="display:none">
-        <p>
-          test2<br>
-        Details Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </div>
-    <div id="Support" class="content-tab" style="display:none">
-       <p>
-         test3 <br>  
-       Specification Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </div>
-    </div>
 
-   
-        <section id="cta-c" class="cta-c">
-            <h3>Trabajemos juntos</h3>
-<p>Es importante que puedas gestionar tu emprendimiento de acuerdo a la metodología adecuada.</p>
-<a href="" class="button is-secondary has-text-weight-medium">
-    <span class="texto"> Simular mi credito</span>
-    <span class="flecha has-background-secondary-dark"><img src="media/ico/flecha-der-boton.svg" alt=""
-            width="10.6px"></span>
-</a>
-        </section>
-  
+
+
+
+    <section id="cta-c" class="cta-c">
+        <h3>Trabajemos juntos</h3>
+        <p>Es importante que puedas gestionar tu emprendimiento <br> de acuerdo a la metodología adecuada.</p>
+        <a href="" class="button is-secondary has-text-weight-medium">
+            <span class="texto"> Conversemos</span>
+            <span class="flecha has-background-secondary-dark"><img src="media/ico/flecha-der-boton.svg" alt=""
+                    width="10.6px"></span>
+        </a>
+    </section>
+
 
     <footer id="footer" class="footer has-text-primary py-5">
         <article class="cont">
@@ -159,4 +184,3 @@
 <script src="js/tabs.js"></script>
 
 </html>
-
