@@ -7499,23 +7499,24 @@ body {
 }
 
 .menu-flotante {
+  display: none;
   position: fixed;
   z-index: 1000;
-  right: 2rem;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  right: 1.5rem;
+  bottom: 0px;
+  -webkit-transform: translateY(-25%);
+          transform: translateY(-25%);
 }
 
 .menu-flotante .botones {
   position: relative;
   z-index: 1000;
-  padding: 12px 8px;
+  padding: 16px 12px;
   background-color: #fff;
   border-radius: 61px;
   -webkit-box-shadow: 5px 5px 5px #00000029;
           box-shadow: 5px 5px 5px #00000029;
-  row-gap: 8px;
+  row-gap: 1rem;
 }
 
 .menu-flotante .botones a,
@@ -7527,7 +7528,7 @@ body {
 
 .menu-flotante .botones a img,
 .menu-flotante .botones button img {
-  width: 20px;
+  width: 32px;
 }
 
 .menu-flotante .botones button {
@@ -7682,7 +7683,8 @@ body {
             column-gap: 4.5rem;
   }
   .footer .copy {
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1050px;
     font-size: 17px;
     line-height: 1.24;
@@ -7784,7 +7786,7 @@ body {
 }
 
 .maincontainer-empresa h3, .maincontainer-historia h3, .maincontainer-socios h3 {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 15px;
   font-weight: 600;
 }
@@ -7794,7 +7796,7 @@ body {
 }
 
 .maincontainer-empresa p, .maincontainer-historia p, .maincontainer-socios p {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 13px;
   text-align: justify;
 }
@@ -7847,7 +7849,7 @@ body {
 }
 
 .cta-cont h4 {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 9px;
   margin-bottom: 10px;
 }
@@ -7886,7 +7888,7 @@ body {
   -webkit-column-gap: 1rem;
           column-gap: 1rem;
   color: #032854;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 16px;
   font-weight: 600;
 }
@@ -7901,9 +7903,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-column-gap: 0.75rem;
-          column-gap: 0.75rem;
-  padding: 1rem;
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
+  padding: 1.25rem;
   background-color: #eeedaa;
   -webkit-clip-path: polygon(7.5% 0%, 92.5% 0%, 100% 100%, 0% 100%);
           clip-path: polygon(7.5% 0%, 92.5% 0%, 100% 100%, 0% 100%);
@@ -7914,12 +7916,17 @@ body {
   color: #032854;
 }
 
-.redes a {
-  height: 22px;
+.redes div {
+  -webkit-column-gap: 1.25rem;
+          column-gap: 1.25rem;
 }
 
-.redes img {
-  width: 22px;
+.redes div a {
+  height: 32px;
+}
+
+.redes div a img {
+  width: 32px;
   border-radius: 3px;
 }
 

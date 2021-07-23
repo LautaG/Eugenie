@@ -7499,23 +7499,24 @@ body {
 }
 
 .menu-flotante {
+  display: none;
   position: fixed;
   z-index: 1000;
-  right: 2rem;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  right: 1.5rem;
+  bottom: 0px;
+  -webkit-transform: translateY(-25%);
+          transform: translateY(-25%);
 }
 
 .menu-flotante .botones {
   position: relative;
   z-index: 1000;
-  padding: 12px 8px;
+  padding: 16px 12px;
   background-color: #fff;
   border-radius: 61px;
   -webkit-box-shadow: 5px 5px 5px #00000029;
           box-shadow: 5px 5px 5px #00000029;
-  row-gap: 8px;
+  row-gap: 1rem;
 }
 
 .menu-flotante .botones a,
@@ -7527,7 +7528,7 @@ body {
 
 .menu-flotante .botones a img,
 .menu-flotante .botones button img {
-  width: 20px;
+  width: 32px;
 }
 
 .menu-flotante .botones button {
@@ -7682,7 +7683,8 @@ body {
             column-gap: 4.5rem;
   }
   .footer .copy {
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1050px;
     font-size: 17px;
     line-height: 1.24;
@@ -7727,7 +7729,9 @@ body {
 }
 
 .heroc .cont .info a {
-  margin-inline: auto;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .heroc .cont .info a img {
@@ -7802,8 +7806,8 @@ body {
   margin-left: 2rem;
   position: relative;
   color: #032854;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 13px;
+  line-height: 15px;
 }
 
 .infoc-cont .content-tab li.block {
@@ -7935,6 +7939,7 @@ body {
     margin-bottom: 30px;
   }
   .heroc .cont .info a {
+    display: initial;
     margin: initial;
   }
   .heroc .cont .info a img {

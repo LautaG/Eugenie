@@ -7499,23 +7499,24 @@ body {
 }
 
 .menu-flotante {
+  display: none;
   position: fixed;
   z-index: 1000;
-  right: 2rem;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  right: 1.5rem;
+  bottom: 0px;
+  -webkit-transform: translateY(-25%);
+          transform: translateY(-25%);
 }
 
 .menu-flotante .botones {
   position: relative;
   z-index: 1000;
-  padding: 12px 8px;
+  padding: 16px 12px;
   background-color: #fff;
   border-radius: 61px;
   -webkit-box-shadow: 5px 5px 5px #00000029;
           box-shadow: 5px 5px 5px #00000029;
-  row-gap: 8px;
+  row-gap: 1rem;
 }
 
 .menu-flotante .botones a,
@@ -7527,7 +7528,7 @@ body {
 
 .menu-flotante .botones a img,
 .menu-flotante .botones button img {
-  width: 20px;
+  width: 32px;
 }
 
 .menu-flotante .botones button {
@@ -7682,7 +7683,8 @@ body {
             column-gap: 4.5rem;
   }
   .footer .copy {
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1050px;
     font-size: 17px;
     line-height: 1.24;
@@ -7711,7 +7713,7 @@ body {
 }
 
 .hero .cont h2 {
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .hero .cont .botones {
@@ -7746,6 +7748,7 @@ body {
 
 .reasons .cont h2 {
   line-height: 1.19;
+  font-size: 18px;
 }
 
 .reasons .cont h3 {
@@ -7754,20 +7757,20 @@ body {
 
 .reasons .cont h3,
 .reasons .cont p {
-  font-size: 12px;
+  font-size: 14px;
   color: #c3c3c3;
 }
 
 .reasons .cont p {
   margin-top: 6px;
   line-height: 1.17;
-  max-width: 120px;
-  margin-inline: auto;
+  max-width: 140px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .reasons .cont h4 {
   line-height: 1;
-  font-size: 14px;
   color: #032854;
 }
 
@@ -7858,6 +7861,8 @@ body {
 }
 
 .info-gallery-slider li img {
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -7872,7 +7877,8 @@ body {
 }
 
 .info-bases h2 {
-  margin-inline: auto;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 19px;
   line-height: 22px;
   max-width: 200px;
@@ -7883,6 +7889,7 @@ body {
 }
 
 .info-bases-item {
+  height: auto;
   background-color: #fff;
   border-radius: 10px;
   -webkit-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);
@@ -7902,7 +7909,7 @@ body {
 
 .info-bases-item p {
   color: #a5a5a5;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.75;
 }
 
@@ -7933,7 +7940,7 @@ body {
 .info-cta-sub-cont-form input#POST-email {
   width: 100%;
   padding-left: 0px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
   border: none;
   border-bottom: 1px solid #a5a5a5;
@@ -7941,11 +7948,12 @@ body {
 
 .info-cta-sub-cont-form .button {
   border-radius: 5px;
-  margin-inline: auto;
+  margin-left: auto;
+  margin-right: auto;
   -webkit-box-flex: initial;
       -ms-flex-positive: initial;
           flex-grow: initial;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.21;
 }
 
@@ -7974,6 +7982,10 @@ body {
 .client {
   background-color: #c3c18d1a;
   overflow: hidden;
+}
+
+.client h2 {
+  font-size: 18px;
 }
 
 .client-slider {
@@ -8010,6 +8022,10 @@ body {
 
 .client-slider li a:hover img.img-c {
   opacity: 1;
+}
+
+.menu-flotante {
+  display: initial;
 }
 
 @media screen and (min-width: 500px) {
@@ -8198,7 +8214,8 @@ body {
   }
   .info-bases {
     max-width: 960px;
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   .info-bases h2 {
     font-size: 29px;
@@ -8228,7 +8245,8 @@ body {
   }
   .info-cta-sub-cont {
     max-width: 960px;
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 2.5rem 3.25rem;
   }
   .info-cta-sub-cont h4 {
@@ -8278,7 +8296,8 @@ body {
     max-width: 100%;
   }
   .client h2 {
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1160px;
     font-size: 20px;
     line-height: 1.25;
@@ -8288,7 +8307,8 @@ body {
     width: 100%;
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-left: 3rem;
   }
   .client-slider li {
