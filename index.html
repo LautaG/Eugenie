@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html id="htmlpadre" lang="es" class="">
 
 <head>
     <meta charset="UTF-8">
@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -56,7 +55,7 @@
                 <div class="center">
                     <div class="navbar-item">
                         <div class="buttons">
-                            <a href="contacto.html" class="button is-primary has-text-weight-medium">
+                            <a href="contacto.html" class="button is-primary has-text-weight-medium contacto">
                                 Contacto
                             </a>
 
@@ -76,19 +75,43 @@
                 tu emprendimiento <br>
                 necesita.</h2>
             <div class="botones">
-                <a href="#reasons"><img src="media/ico/hero-flecha.svg" alt="" class="flecha"></a>
-                <a href="" class="hero-boton"> <button class="button is-small is-primary">Ver más</button></a>
+                <a href="#info"><img src="media/ico/hero-flecha.svg" alt="" class="flecha"></a>
+                <a href="servicios.html" class="hero-boton"> <button class="button is-small is-primary">Ver
+                        más</button></a>
             </div>
         </article>
     </section>
 
     <div class="menu-flotante">
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
+        <div class="botones center-column">
+            <a href="#header"><img src="media/ico/backtotop.svg" alt=""></a>
+            <a href=""><img src="media/ico/wpp.svg" alt=""></a>
+            <button id="boton-show" onclick="menuLatShow()"><img src="media/ico/burguer-float.svg" alt=""></button>
+            <button id="boton-back" onclick="menuLatClose()" class="close"><img src="media/ico/burguer-float.svg"
+                    alt=""></button>
+        </div>
+        <div id="menu-oculto" class="menu-oculto">
+            <a href="index.html" class="navbar-item">
+                Inicio
+            </a>
+
+            <a href="quienes-somos.html" class="navbar-item">
+                Quiénes somos
+            </a>
+
+            <a href="servicios.html" class="navbar-item">
+                Servicios
+            </a>
+
+            <a href="creditos.html" class="navbar-item">
+                Créditos
+            </a>
+        </div>
+
     </div>
 
     <section id="reasons" class="reasons">
+
         <article class="cont">
             <article class="reasons-title">
                 <h2 class="has-text-primary has-text-weight-medium">Por qué elegirnos</h2>
@@ -97,18 +120,18 @@
             </article>
             <article class="columns reasons-info">
                 <div class="column">
-                    <img src="media/ico/reasons-1.svg" alt="" width="58px" class="reasons-img-1">
+                    <img loading="lazy" src="media/ico/reasons-1.svg" alt="" width="58px" class="reasons-img-1">
                     <h4 class="mt-4">transparencia</h4>
                     <p>Ofrecemos información real con comunicación.</p>
                 </div>
                 <div class="column">
-                    <img src="media/ico/reasons-2.svg" alt="" width="85px" class="reasons-img-2">
+                    <img loading="lazy" src="media/ico/reasons-2.svg" alt="" width="85px" class="reasons-img-2">
                     <h4 class="mt-4">flexibilidad</h4>
                     <p>Nuestros servicios
                         se adaptan a tus necesidades. </p>
                 </div>
                 <div class="column">
-                    <img src="media/ico/reasons-3.svg" alt="" width="58px" class="reasons-img-3">
+                    <img loading="lazy" src="media/ico/reasons-3.svg" alt="" width="58px" class="reasons-img-3">
                     <h4 class="mt-4">fácil acceso</h4>
                     <p>El proceso es claro,
                         rápido y fácil.</p>
@@ -119,8 +142,8 @@
 
     <section id="cta-emprende" class="cta-emprende has-background-primary">
         <article class="cont">
-            <img src="media/emprende.svg" alt="" width="135px" class="img-emprende">
-            <a href="" class="button is-secondary has-text-weight-medium">
+            <img loading="lazy" src="media/emprende.svg" alt="" width="135px" class="img-emprende">
+            <a href="creditos.html" class="button is-secondary has-text-weight-medium">
                 <span class="texto"> Simular mi credito</span>
                 <span class="flecha has-background-secondary-dark"><img src="media/ico/flecha-der-boton.svg" alt=""
                         width="10.6px"></span>
@@ -141,13 +164,20 @@
                 <div class="info-gallery-slider glide-gallery">
                     <div class="glide__track" data-glide-el="track">
                         <ul class="glide__slides">
-                            <li class="glide__slide gs1"></li>
-                            <li class="glide__slide gs2"></li>
-                            <li class="glide__slide gs3"></li>
-                            <li class="glide__slide gs4"></li>
-                            <li class="glide__slide gs5"></li>
-                            <li class="glide__slide gs6"></li>
-                            <li class="glide__slide gs7"></li>
+                            <li class="glide__slide gs1"><img loading="lazy" src="media/galeria/galeria-1.jpg" alt="">
+                            </li>
+                            <li class="glide__slide gs2"><img loading="lazy" src="media/galeria/galeria-2.jpg" alt="">
+                            </li>
+                            <li class="glide__slide gs3"><img loading="lazy" src="media/galeria/galeria-3.jpg" alt="">
+                            </li>
+                            <li class="glide__slide gs4"><img loading="lazy" src="media/galeria/galeria-4.jpg" alt="">
+                            </li>
+                            <li class="glide__slide gs5"><img loading="lazy" src="media/galeria/galeria-5.jpg" alt="">
+                            </li>
+                            <li class="glide__slide gs6"><img loading="lazy" src="media/galeria/galeria-6.jpg" alt="">
+                            </li>
+                            <li class="glide__slide gs7"><img loading="lazy" src="media/galeria/galeria-7.jpg" alt="">
+                            </li>
                         </ul>
                     </div>
 
@@ -185,18 +215,28 @@
 
             </article>
             <article class="info-cta-sub-cont">
-                <div class="info-cta-sub-cont-form">
+                <div id="info-cta-sub" class="info-cta-sub-cont-form">
                     <h4 class="has-text-primary">Suscribite para recibir
                         las últimas noticias!</h4>
-                    <form action="" method="post" class="columns">
+                    <form action="" method="" class="columns">
                         <div class="place-email column is-three-fifths-desktop">
                             <input id="POST-email" type="text" name="email-suscribirme" placeholder="E-mail">
                             <p>*Recibirás actualizaciones relevantes <span>esporádicamente</span> </p>
                         </div>
                         <div class="column is-flex">
-                            <input type="submit" value="Suscribirme" class="button is-secondary has-text-weight-medium">
+                            <input onclick="sub()" type="submit" value="Suscribirme"
+                                class="button is-secondary has-text-weight-medium">
                         </div>
                     </form>
+                </div>
+                <div id="info-cta-sub-done" class="sub-done">
+                    <div class="block is-flex">
+                        <img loading="lazy" src="media/ico/done.svg" alt="">
+                        <h4 class="has-text-weight-medium">¡Bienvenida!</h4>
+                    </div>
+                    <p class="block">Ya formas parte de nuestra red de emprendedoras.
+                        Pronto recibirás novedades. </p>
+
                 </div>
 
             </article>
@@ -215,13 +255,34 @@
             <div class="client-slider glide-clientes">
                 <div class="glide__track" data-glide-el="track">
                     <ul class="glide__slides">
-                        <li class="glide__slide gs1"><a href=""></a></li>
-                        <li class="glide__slide gs2"><a href=""></a></li>
-                        <li class="glide__slide gs3"><a href=""></a></li>
-                        <li class="glide__slide gs4"><a href=""></a></li>
-                        <li class="glide__slide gs5"><a href=""></a></li>
-                        <li class="glide__slide gs6"><a href=""></a></li>
-                        <li class="glide__slide gs7"><a href=""></a></li>
+                        <li class="glide__slide gs1"><a href="">
+                                <img loading="lazy" src="media/marcas/marcas-1.svg" alt="">
+                                <img class="img-c" loading="lazy" src="media/marcas/marca-1.svg" alt="">
+                            </a></li>
+                        <li class="glide__slide gs2"><a href="">
+                                <img loading="lazy" src="media/marcas/marcas-2.svg" alt="">
+                                <img class="img-c" loading="lazy" src="media/marcas/marca-2.svg" alt="">
+                            </a></li>
+                        <li class="glide__slide gs3"><a href="">
+                                <img loading="lazy" src="media/marcas/marcas-3.svg" alt="">
+                                <img class="img-c" loading="lazy" src="media/marcas/marca-3.svg" alt="">
+                            </a></li>
+                        <li class="glide__slide gs4"><a href="">
+                                <img loading="lazy" src="media/marcas/marcas-4.svg" alt="">
+                                <img class="img-c" loading="lazy" src="media/marcas/marca-4.svg" alt="">
+                            </a></li>
+                        <li class="glide__slide gs5"><a href="">
+                                <img loading="lazy" src="media/marcas/marcas-5.jpg" alt="">
+                                <img class="img-c" loading="lazy" src="media/marcas/marca-5.jpg" alt="">
+                            </a></li>
+                        <li class="glide__slide gs6"><a href="">
+                                <img loading="lazy" src="media/marcas/marcas-6.svg" alt="">
+                                <img class="img-c" loading="lazy" src="media/marcas/marca-6.svg" alt="">
+                            </a></li>
+                        <li class="glide__slide gs7"><a href="">
+                                <img loading="lazy" src="media/marcas/marcas-7.svg" alt="">
+                                <img class="img-c" loading="lazy" src="media/marcas/marca-7.svg" alt="">
+                            </a></li>
                     </ul>
                 </div>
 
@@ -229,6 +290,23 @@
 
         </article>
     </section>
+    <button onclick="modalContacto()">Mensajito popup</button>
+
+    <div id="modal" class="modal">
+        <div onclick="modalContactoClose()" class="modal-background"></div>
+        <div class="modal-content">
+            <div class="block is-flex">
+                <img loading="lazy" src="media/ico/ico-popup.svg" alt="">
+                <h4 class="has-text-weight-medium">¡Gracias!</h4>
+            </div>
+            <p class="block">Tu mensaje se envió con éxito. <br>
+                Nos pondremos en contacto
+                en las próximas horas.
+            </p>
+            <p class="block">Que tengas buen día</p>
+        </div>
+        <button onclick="modalContactoClose()" class="modal-close is-large" aria-label="close"></button>
+    </div>
 
     <footer id="footer" class="footer has-text-primary py-5">
         <article class="cont">
@@ -265,23 +343,34 @@
 
 <script src="js/burguermenu.js"></script>
 <script src="js/glide.min.js"></script>
+<script src="js/modales.js"></script>
 <script>
     const config = {
-        type: "slider",
+        type: "carousel",
         animationDuration: 600,
-        gap: 20,
-        autoplay: 3000,
+        gap: 0,
+        autoplay: 2000,
+
     };
     new Glide(".glide-gallery", config).mount();
     const config_client = {
         type: "carousel",
         animationDuration: 600,
-        gap: 18,
+        autoplay: 2000,
         hoverpause: true,
-        autoplay: 1,
-        animationDuration: 6000,
-        animationTimingFunc: 'linear',
 
+        breakpoints: {
+            1925: {
+                perView: 6,
+                focusAt: 4,
+                gap: 32,
+
+            },
+            800: {
+                perView: 1,
+                gap: 22,
+            }
+        }
 
     };
     new Glide(".glide-clientes", config_client).mount();

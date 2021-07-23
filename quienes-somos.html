@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="css/quienes-somos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -56,7 +56,7 @@
                 <div class="center">
                     <div class="navbar-item">
                         <div class="buttons">
-                            <a href="contacto.html" class="button is-primary has-text-weight-medium">
+                            <a href="contacto.html" class="button is-primary has-text-weight-medium contacto">
                                 Contacto
                             </a>
 
@@ -67,6 +67,34 @@
             </div>
         </nav>
     </header>
+
+    <div class="menu-flotante">
+        <div class="botones center-column">
+            <a href="#header"><img src="media/ico/backtotop.svg" alt=""></a>
+            <a href=""><img src="media/ico/wpp.svg" alt=""></a>
+            <button id="boton-show" onclick="menuLatShow()"><img src="media/ico/burguer-float.svg" alt=""></button>
+            <button id="boton-back" onclick="menuLatClose()" class="close"><img src="media/ico/burguer-float.svg"
+                    alt=""></button>
+        </div>
+        <div id="menu-oculto" class="menu-oculto">
+            <a href="index.html" class="navbar-item">
+                Inicio
+            </a>
+
+            <a href="quienes-somos.html" class="navbar-item">
+                Quiénes somos
+            </a>
+
+            <a href="servicios.html" class="navbar-item">
+                Servicios
+            </a>
+
+            <a href="creditos.html" class="navbar-item">
+                Créditos
+            </a>
+        </div>
+
+    </div>
 
     <section id="maincontainer" class="maincontainer">
 

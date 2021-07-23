@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="css/creditos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -56,7 +56,7 @@
                 <div class="center">
                     <div class="navbar-item">
                         <div class="buttons">
-                            <a href="contacto.html" class="button is-primary has-text-weight-medium">
+                            <a href="contacto.html" class="button is-primary has-text-weight-medium contacto">
                                 Contacto
                             </a>
 
@@ -67,6 +67,34 @@
             </div>
         </nav>
     </header>
+
+    <div class="menu-flotante">
+        <div class="botones center-column">
+            <a href="#header"><img src="media/ico/backtotop.svg" alt=""></a>
+            <a href=""><img src="media/ico/wpp.svg" alt=""></a>
+            <button id="boton-show" onclick="menuLatShow()"><img src="media/ico/burguer-float.svg" alt=""></button>
+            <button id="boton-back" onclick="menuLatClose()" class="close"><img src="media/ico/burguer-float.svg"
+                    alt=""></button>
+        </div>
+        <div id="menu-oculto" class="menu-oculto">
+            <a href="index.html" class="navbar-item">
+                Inicio
+            </a>
+
+            <a href="quienes-somos.html" class="navbar-item">
+                Quiénes somos
+            </a>
+
+            <a href="servicios.html" class="navbar-item">
+                Servicios
+            </a>
+
+            <a href="creditos.html" class="navbar-item">
+                Créditos
+            </a>
+        </div>
+
+    </div>
 
     <section id="heroc" class="heroc">
         <article class="cont">
@@ -120,12 +148,14 @@
                 </div>
                 <div id="Support" class="content-tab" style="display:none">
                     <ul>
-                        <li class="block">Monto máximo de $1.000.000 (pesos argentinos)</li>
-                        <li class="block">Plazo mínimo 12 meses - máximo 60 meses.</li>
-                        <li class="block">Tasa fija en pesos. </li>
-                        <li class="block">Préstamos a sola firma.</li>
-                        <li class="block">Condiciones adaptadas a los ciclos productivos
-                            de su negocio</li>
+                        <li class="block">Ser trabajadora independiente (con esto nos referimos a: emprendimientos,
+                            comercios, negocio familiares, oficios, actividades comerciales, de servicio o producción).
+                        </li>
+                        <li class="block">Desarrollar la actividad dentro del ámbito de la provincia de Buenos Aires
+                            (incluido CABA).</li>
+                        <li class="block">Poseer DNI.</li>
+                        <li class="block">Se valorarán referencias y antecedentes comerciales.</li>
+
                     </ul>
                 </div>
 
@@ -133,7 +163,22 @@
         </div>
     </section>
 
+    <button onclick="modalContacto()">Mensajito popup</button>
 
+    <div id="modal" class="modal">
+        <div onclick="modalContactoClose()" class="modal-background"></div>
+        <div class="modal-content">
+            <div class="block is-flex">
+                <img loading="lazy" src="media/ico/ico-popup-c.svg" alt="">
+                <h4 class="has-text-weight-medium">¡Estupendo!</h4>
+            </div>
+            <p class="block">Hemos recibido tu consulta, <br>
+                a la brevedad nos pondremos en contacto para seguir conversando.
+            </p>
+
+        </div>
+        <button onclick="modalContactoClose()" class="modal-close is-large" aria-label="close"></button>
+    </div>
 
 
     <section id="cta-c" class="cta-c">
@@ -182,5 +227,6 @@
 
 <script src="js/burguermenu.js"></script>
 <script src="js/tabs.js"></script>
+<script src="js/modales.js"></script>
 
 </html>
